@@ -29,7 +29,7 @@ class CustomerController extends BaseController {
 	public function getIndex(){
 		$data["search"]["c_name"] = '';
 		$data["search"]["c_status"] = '';
-		$customers = Customers::whereRaw('c_add_userid=?', array(Auth::user()->id))->orderby('id', 'desc')->get();
+		$customers = Customers::whereRaw('c_add_userid=? AND c_status <> ?', array(Auth::user()->id, 3))->orderby('id', 'desc')->get();
 		$data["customers"] = $customers;
 		$data["customer_trades"] = $this->customer_trades;
 		$data["customer_zones"] = $this->customer_zones;

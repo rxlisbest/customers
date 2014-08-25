@@ -177,7 +177,7 @@
 
         <div class="sub-nav"><!-- This is sub navigation -->
           <ul>
-            <li><a href="/customer/add" class="">添加保护</a></li>
+            <li><a href="/customer/add" class="">添加客户</a></li>
             <!-- <li>
               <a href="#" >
                 Link
@@ -317,7 +317,7 @@
 
     <footer><!--  Footer starts here  -->
       <p>
-        &copy; baswaAdmin 2014
+        Copyright © 2014  先行科技
       </p>
     </footer><!--  Footer ends here  -->
     <script src="/js/jquery.min.js">

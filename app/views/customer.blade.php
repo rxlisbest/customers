@@ -182,7 +182,7 @@
 <div class="right-sidebar"><!-- Right sidebar starts here -->
   <div class="wrapper">
     <a href="/customer/add">
-      <button class="btn btn-large btn-info btn-block" type="button">添加保护客户</button>
+      <button class="btn btn-large btn-info btn-block" type="button">添加客户</button>
     </a>
   </div>
 </div><!-- Right sidebar ends here -->
