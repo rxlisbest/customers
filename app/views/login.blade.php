@@ -8,7 +8,7 @@
       <div class="widget">
         <div class="widget-header">
           <div class="title">
-            Login
+              Login
           </div>
           <span class="tools">
             <a class="fs1" aria-hidden="true" data-icon="&#xe090;"></a>
@@ -22,7 +22,11 @@
                 <div class="header">
                   <div class="row-fluid">
                     <div class="span12">
-                      <h3>Login<img src="img/logo1.png" alt="Logo" class="pull-right"></h3>
+                      <h3>
+                        <font color="#3693cf">
+                          Login
+                        </font>
+                        <img src="img/logo1.png" alt="Logo" class="pull-right"></h3>
                       <p>{{ Session::get("message") ?: '欢迎登陆' }}</p>
                     </div>
                   </div>
@@ -41,7 +45,7 @@
                   </div>
                 </div>
                 <div class="actions">
-                  <input class="btn btn-danger" name="Login" type="submit" value="Login" >
+                  <input class="btn btn-primary" name="Login" type="submit" value="Login" >
                   <!-- <a class="link" href="#">Forgot Password?</a> -->
                   <div class="clearfix"></div>
                 </div>

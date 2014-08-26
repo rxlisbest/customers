@@ -24,11 +24,13 @@
   <head>
     <meta charset="utf-8">
     <title>
-      Blue Moon - Responsive Admin Dashboard
+      先行科技-代理商客户管理系统
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link type="image/x-icon" rel="shortcut icon" href="/img/favicon.ico" />
+    <link type="image/x-icon" rel="icon" href="/img/favicon.ico" />
     <!-- bootstrap css -->
     <link href="/css/date.css" rel="stylesheet">
     <link href="/icomoon/style.css" rel="stylesheet">
@@ -42,7 +44,7 @@
   </head>
   <body>
     <header><!-- Header Starts Here -->
-      <a href="#" class="logo">
+      <a href="/" class="logo">
         <img src="/img/logo.png" alt="Logo"/>
       </a>
       @if(Auth::user())
@@ -67,7 +69,7 @@
           </li> -->
           <li>
             <a href="/logout">
-              Logout
+              退出登陆
             </a>
           </li>
         </ul>
@@ -109,12 +111,12 @@
 
         <div class="top-nav"><!-- This is main navigation -->
           <ul>
-            <li>
+            <!-- <li>
               <a href="/">
                 <div class="fs1" aria-hidden="true" data-icon="&#xe0a0;"></div>
                 桌面
               </a>
-            </li>
+            </li> -->
             <!-- <li>
               <a href="forms.html" >
                 <div class="fs1" aria-hidden="true" data-icon="&#xe0b8;"></div>
